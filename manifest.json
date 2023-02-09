@@ -61,8 +61,8 @@
       "purpose": "maskable"
     }],
   "protocol_handlers": [{
-      "protocol": "web+home",
-      "url": "/"
+      "protocol": "web+itinerary",
+      "url": "/itinerary"
     }]
 
 
