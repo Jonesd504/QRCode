@@ -60,9 +60,7 @@
       "type": "image/png",
       "purpose": "maskable"
     }],
-  
-  "protocol_handlers": [
-    {
+  "protocol_handlers": [{
       "protocol": "web+home",
       "url": "/"
     }]
