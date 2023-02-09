@@ -2,6 +2,7 @@
   "name": "Accor GME 2023",
   "short_name": "Accor GME 2023",
   "id": "AccorGME2023",
+  "scope": "/",
   "start_url": "https://www.djonesav.uk/",
   "display": "standalone",
   "background_color": "#060027",
