@@ -29,24 +29,6 @@ self.addEventListener('activate', function(e) {
   );
 });
 
-window.addEventListener('beforeinstallprompt', function(event) {
-  event.preventDefault();
-  var installPrompt = event;
-  var installButton = document.getElementById('install-button');
-  installButton.addEventListener('click', function() {
-    installPrompt.prompt();
-    installPrompt.userChoice.then(function(choice) {
-      if (choice.outcome === 'accepted') {
-        console.log('User accepted the A2HS prompt');
-      } else {
-        console.log('User dismissed the A2HS prompt');
-      }
-      installPrompt = null;
-    });
-  });
-  installButton.style.display = 'block';
-});
-
 self.addEventListener('fetch', function(e) {
   console.log('[ServiceWorker] Fetch', e.request.url);
   e.respondWith(
