@@ -1,8 +1,9 @@
-var cacheName = 'your-pwa-cache-v1';
+var cacheName = 'AccorGME2023-cache-v1';
 var filesToCache = [
   '/',
   'https://git.djonesav.uk/manifest.json',
-  "https://static.wixstatic.com/media/59e08e_6ce21ebd00da48178adad91122a028b2~mv2.png"
+  "https://static.wixstatic.com/media/59e08e_6ce21ebd00da48178adad91122a028b2~mv2.png",
+  
 ];
 
 self.addEventListener('install', function(e) {
@@ -27,6 +28,17 @@ self.addEventListener('activate', function(e) {
       }));
     })
   );
+});
+
+window.addEventListener("beforeinstallprompt", function (e) {
+  e.userChoice.then(function (choiceResult) {
+      console.log(choiceResult.outcome);
+        if (choiceResult.outcome == "dismissed") {
+         console.log("User cancelled home screen install");
+        } else {
+              console.log("User added to home screen");
+            }
+  });
 });
 
 self.addEventListener('fetch', function(e) {
