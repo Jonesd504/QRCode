@@ -5,68 +5,75 @@
   "version": "0.1",
   "start_url": "https://www.djonesav.uk/",
   "display": "standalone",
-  "background_color": "#060027",
-  "theme_color": "#060027",
+  "orientation": "portrait",
+  "background_color": "#000139",
+  "theme_color": "#000139",
   "description": "Events App for the Accor Global Meeting Exchange 2023",
-  "apple-touch-icon": "https://static.wixstatic.com/media/59e08e_4d6cdb74026a49efa476dce9443de51d~mv2.png",
-  "apple-touch-startup-image": "https://static.wixstatic.com/media/59e08e_6ce21ebd00da48178adad91122a028b2~mv2.png",
-  "icons": [{
-
-    "src":"https://static.wixstatic.com/media/59e08e_6ce21ebd00da48178adad91122a028b2~mv2.png",
-
-    "sizes": "520x520",
-
-    "type": "image/png"
-
-  },{
-      "src": "https://static.wixstatic.com/media/59e08e_6bf7d4444d15480d926d0db60f50c121~mv2.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "https://static.wixstatic.com/media/59e08e_1907ff150a6a43038b06f64822111ff0~mv2.png",
+  "apple-touch-icon": "https://static.wixstatic.com/media/59e08e_f08fe55e8d854cb58b2f3e7510e476e5~mv2.png",
+  "apple-touch-startup-image": "https://static.wixstatic.com/media/59e08e_7f639d257a08406e8bdc2af7765131de~mv2.png",
+  "icons": [ 
+     {
+      "src": "https://static.wixstatic.com/media/59e08e_7f639d257a08406e8bdc2af7765131de~mv2.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
     },
+    
     {
-      "src": "https://static.wixstatic.com/media/59e08e_e87255a38c4e41669c545e22df4ddf6c~mv2.png",
-      "sizes": "48x48",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "https://static.wixstatic.com/media/59e08e_ab75991977d640cea50a600becebfc00~mv2.png",
-      "sizes": "72x72",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "https://static.wixstatic.com/media/59e08e_1116140fa8e144e6a47c585684b98cc8~mv2.png",
+      "src": "https://static.wixstatic.com/media/59e08e_4370b7b7684b467db4c577bef076c0ac~mv2.png",
       "sizes": "384x384",
       "type": "image/png",
       "purpose": "maskable"
     },
-    {
-      "src": "https://static.wixstatic.com/media/59e08e_4d6cdb74026a49efa476dce9443de51d~mv2.png",
-      "sizes": "128x128",
+            {
+      "src": "https://static.wixstatic.com/media/59e08e_5ba67422a3024eb49c33f8477b3404ff~mv2.png",
+      "sizes": "256x256",
       "type": "image/png",
       "purpose": "maskable"
     },
-    {
-      "src": "https://static.wixstatic.com/media/59e08e_02bd9db054db48d8ae2a9b9acbb8bb6d~mv2.png",
+            {
+      "src": "https://static.wixstatic.com/media/59e08e_abd4ab5ae5784df5a6b1bc389832c53b~mv2.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+            {
+      "src": "https://static.wixstatic.com/media/59e08e_7b86040cce504130bb7bfd32bb7c8696~mv2.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+            {
+      "src": "https://static.wixstatic.com/media/59e08e_87e7bf3a261e495bb2290d317f0e3179~mv2.png",
       "sizes": "96x96",
       "type": "image/png",
       "purpose": "maskable"
-    }],
-  "protocol_handlers": [{
-      "protocol": "web+itinerary",
-      "url": "/itinerary"
-    }]
-
-
-
+    },
+            {
+      "src": "https://static.wixstatic.com/media/59e08e_494ef42c61574021832516244d2a4f45~mv2.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+            {
+      "src": "https://static.wixstatic.com/media/59e08e_bedec79ca74e44cfa5ca590c87d4487a~mv2.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+            {
+      "src": "https://static.wixstatic.com/media/59e08e_7bac1474e9a442e282d793fef3cbdc40~mv2.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+            {
+      "src": "https://static.wixstatic.com/media/59e08e_33901c02d3c04223b271de1eb23a69bc~mv2.png",
+      "sizes": "16x16",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
 }
 
 
