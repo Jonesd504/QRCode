@@ -2,7 +2,7 @@ var cacheName = 'AccorGME2023-cache-v1';
 var filesToCache = [
   '/',
   'https://git.djonesav.uk/manifest.json',
-  "https://static.wixstatic.com/media/59e08e_6ce21ebd00da48178adad91122a028b2~mv2.png",
+  "https://static.wixstatic.com/media/59e08e_7f639d257a08406e8bdc2af7765131de~mv2.png",
   
 ];
 
