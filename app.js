@@ -12,7 +12,7 @@ var app = new Vue({
     self.scanner.addListener('scan', function (content, image) {
       self.scans.unshift({ date: +(Date.now()), content: content });
       console.log(content);
-      window.parent.postMessage(content, "https://www.djonesav.uk");
+      window.parent.postMessage(content, "https://app.accorgme.com");
     });
     Instascan.Camera.getCameras().then(function (cameras) {
       self.cameras = cameras;
