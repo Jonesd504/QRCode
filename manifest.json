@@ -16,6 +16,19 @@
   "description": "Events App for the Accor Global Meeting Exchange 2023",
   "apple-touch-icon": "https://static.wixstatic.com/media/59e08e_187788b5fc1e4d0e9cfb57296e884afd~mv2.png",
   "apple-touch-startup-image": "https://static.wixstatic.com/media/59e08e_7f639d257a08406e8bdc2af7765131de~mv2.png",
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "web",
+      "url": "https://www.app.accorgme.com/"
+    }
+  ],
+  "protocol_handlers": [
+    {
+      "protocol": "web+app.accorgme",
+      "url": "https://www.app.accorgme.com/"
+    }
+  ]
   "icons": [ 
      {
       "src": "https://static.wixstatic.com/media/59e08e_7f639d257a08406e8bdc2af7765131de~mv2.png",
