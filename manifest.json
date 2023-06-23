@@ -23,6 +23,12 @@
       "type": "image/png",
       "purpose": "maskable"
     },
+        {
+      "src": "https://www.accorgme.com/2023/app/img/splash10.jpg",
+      "sizes": "320x480",
+      "type": "image/jpeg",
+      "media": "(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)"
+    },
     
     {
       "src": "https://www.accorgme.com/2023/app/img/icon384.png",
