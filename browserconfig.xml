@@ -2,10 +2,8 @@
 <browserconfig>
     <msapplication>
         <tile>
-            <square70x70logo src="https://static.wixstatic.com/media/59e08e_507ab698e20d4fb99e365764ffb09753~mv2.png"/>
-            <square150x150logo src="https://static.wixstatic.com/media/59e08e_1aad42354436450ab433ada9799ae68e~mv2.png"/>
-            <square310x310logo src="https://static.wixstatic.com/media/59e08e_66249f6e8b9745408a48d84d9ff80038~mv2.png"/>
-            <wide310x150logo src="https://static.wixstatic.com/media/59e08e_560e79aa64b74aff83c0e0dcca485d05~mv2.png"/>
+            <square72x72logo src="https://www.accorgme.com/2023/app/img/icon72.png"/>
+            <square144x1144logo src="https://www.accorgme.com/2023/app/img/icon144.png"/>
             <TileColor>#000139</TileColor>
         </tile>
     </msapplication>
