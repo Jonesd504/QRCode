@@ -2,17 +2,12 @@
   "name": "Accor GME 2023",
   "short_name": "Accor GME 2023",
   "id": "AccorGME2023",
-  "version": "1.0",
+  "version": "0.2",
   "start_url": "https://www.app.accorgme.com/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#050033",
   "theme_color": "#050033",
-  "gcm_sender_id": "",
-  "gcm_user_visible_only": true,
-  "permissions": [
-    "gcm"
-  ],
   "description": "Events App for the Accor Global Meeting Exchange 2023",
   "prefer_related_applications": true,
   "related_applications": [
