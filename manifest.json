@@ -2,7 +2,7 @@
   "name": "Accor GME 2023",
   "short_name": "Accor GME 2023",
   "id": "AccorGME2023",
-  "version": "0.2",
+  "version": "2.0",
   "start_url": "https://www.app.accorgme.com/",
   "display": "standalone",
   "orientation": "portrait",
