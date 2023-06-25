@@ -2,7 +2,7 @@
   "name": "Accor GME 2023",
   "short_name": "Accor GME 2023",
   "id": "AccorGME2023",
-  "version": "2.0",
+  "version": "0.2",
   "start_url": "https://www.app.accorgme.com/",
   "display": "standalone",
   "orientation": "portrait",
@@ -21,15 +21,37 @@
       "src": "https://www.accorgme.com/2023/app/img/icon512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "maskable"
+      "purpose": "any"
     },
         {
       "src": "https://www.accorgme.com/2023/app/img/splash10.jpg",
       "sizes": "320x480",
       "type": "image/jpeg",
       "media": "(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)"
+    },
+    
+    {
+      "src": "https://www.accorgme.com/2023/app/img/icon384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+            {
+      "src": "https://www.accorgme.com/2023/app/img/icon256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+            {
+      "src": "https://www.accorgme.com/2023/app/img/icon192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+            {
+      "src": "https://www.accorgme.com/2023/app/img/icon144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
     }
   ]
 }
-
 
