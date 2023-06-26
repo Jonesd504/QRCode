@@ -22,12 +22,6 @@
       "sizes": "any",
       "type": "image/svg+xml"
     },
-     {
-      "src": "https://git.djonesav.uk/",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
         {
       "src": "https://www.accorgme.com/2023/app/img/splash10.jpg",
       "sizes": "640x1136",
