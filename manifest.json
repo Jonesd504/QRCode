@@ -7,8 +7,16 @@
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#050033",
+  "categories": "events",
   "theme_color": "#050033",
   "description": "Events App for the Accor Global Meeting Exchange 2023",
+  "screenshots":[ 
+      {
+        "src": "https://www.accorgme.com/2023/app/img/splash10.jpg",
+        "sizes": "640x1136",
+        "type": "image/jpeg"
+      }
+  ],
   "prefer_related_applications": true,
   "related_applications": [
     {
@@ -17,12 +25,25 @@
     }
   ],
   "icons": [ 
+    
     {
       "src": "https://git.djonesav.uk/VIVE.svg",
       "sizes": "any",
       "type": "image/svg+xml",
-      "purpose": "any"
+      "purpose": "any maskable"
+    },
+        {
+      "src": "https://www.accorgme.com/2023/app/img/splash10.jpg",
+      "sizes": "640x1136",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "https://git.djonesav.uk/512VIVE.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
     }
+    
   ]
 }
 
