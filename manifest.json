@@ -1,6 +1,7 @@
 {
   "name": "Accor GME 2023",
   "short_name": "Accor GME 2023",
+  "id": "Accor GME 2023",
   "version": "3.0",
   "start_url": "https://www.app.accorgme.com/",
   "display": "standalone",
@@ -14,13 +15,6 @@
       "src": "https://www.accorgme.com/2023/app/img/splash10.jpg",
       "sizes": "640x1136",
       "type": "image/jpeg"
-    }
-  ],
-  "prefer_related_applications": true,
-  "related_applications": [
-    {
-      "platform": "web",
-      "url": "https://www.app.accorgme.com/"
     }
   ],
   "icons": [
