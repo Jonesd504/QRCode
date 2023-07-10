@@ -22,7 +22,7 @@
       "src": "https://git.djonesav.uk/VIVE.svg",
       "sizes": "any",
       "type": "image/svg+xml",
-      "purpose": "any maskable"
+      "purpose": "maskable"
     },
     {
       "src": "https://www.accorgme.com/2023/app/img/splash10.jpg",
@@ -31,10 +31,10 @@
       "purpose": "any"
     },
     {
-      "src": "https://git.djonesav.uk/512VIVE.png",
+      "src": "https://git.djonesav.uk/VIVE512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "maskable"
     },
     {
       "src": "https://git.djonesav.uk/VIVA120.png",
