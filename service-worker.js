@@ -1,7 +1,6 @@
 var cacheName = 'AccorGME2023-cache-v1';
 var filesToCache = [
   '/'
-  
 ];
 
 self.addEventListener('install', function(e) {
@@ -35,4 +34,25 @@ self.addEventListener('fetch', function(e) {
       return response || fetch(e.request);
     })
   );
+});
+
+self.addEventListener('push', function(event) {
+  console.log('[ServiceWorker] Push received:', event);
+  event.waitUntil(
+    self.registration.showNotification('Push Notification', {
+      body: event.data.text(),
+      // Add other notification options here
+    })
+  );
+});
+
+// Initialize OneSignal SDK and register for push notifications
+self.importScripts('https://cdn.onesignal.com/sdks/OneSignalSDK.js');
+self.OneSignal = self.OneSignal || [];
+self.OneSignal.push(function() {
+  self.OneSignal.init({
+    appId: 'YOUR_ONESIGNAL_APP_ID',
+    // Additional OneSignal SDK configuration options
+  });
+  self.OneSignal.registerForPushNotifications();
 });
