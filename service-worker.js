@@ -46,13 +46,4 @@ self.addEventListener('push', function(event) {
   );
 });
 
-// Initialize OneSignal SDK and register for push notifications
-self.importScripts('https://cdn.onesignal.com/sdks/OneSignalSDK.js');
-self.OneSignal = self.OneSignal || [];
-self.OneSignal.push(function() {
-  self.OneSignal.init({
-    appId: 'b6361e7a-9e3a-4cd5-b958-a155f2dc193b',
-    // Additional OneSignal SDK configuration options
-  });
-  self.OneSignal.registerForPushNotifications();
-});
+
