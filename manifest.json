@@ -19,12 +19,6 @@
   ],
   "icons": [
     {
-      "src": "https://git.djonesav.uk/VIVE.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "maskable"
-    },
-    {
       "src": "https://www.accorgme.com/2023/app/img/splash10.jpg",
       "sizes": "640x1136",
       "type": "image/jpeg",
