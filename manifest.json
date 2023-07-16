@@ -19,6 +19,12 @@
   ],
   "icons": [
     {
+      "src": "https://git.djonesav.uk/ViveGMEWhite512b.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
       "src": "https://www.accorgme.com/2023/app/img/splash10.jpg",
       "sizes": "640x1136",
       "type": "image/jpeg",
